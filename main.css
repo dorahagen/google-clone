@@ -1,0 +1,214 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Header Styles */
+
+html {
+	position: relative;
+	min-height: 100%;
+	font-family: Arial, sans-serif;
+	font-size: 0.8em;
+	color: #737373;
+}
+
+body {
+	margin: 0 0 75px;
+}
+
+header {
+	position: relative;
+	min-width: 900px;
+	height: 60px;
+	padding: 24px;
+}
+
+nav {
+	float: right;
+	padding-right: 4px;
+}
+
+li {
+	display: inline;
+	padding: 6px;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.apps {
+	vertical-align: middle;
+	padding: 0px 8px;
+	width: 16px;
+	height: 16px;
+}
+
+.sign-in {
+	background: #4683ea;
+	background: -webkit-linear-gradient(#4387fd, #4683ea);
+	background: -moz-linear-gradient(#4387fd, #4683ea);
+	background: -ms-linear-gradient(#4387fd, #4683ea);
+	background: -o-linear-gradient(#4387fd, #4683ea);
+	background: linear-gradient(#4387fd, #4683ea);
+	border: 1px solid #4683ea;
+	border-radius: 2px;
+	padding: 6px 12px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.sign-in:hover {
+	text-decoration: none;
+	background-color: #e6e6e6;
+	-webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, .20);
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, .20);
+}
+
+/* Main Styles */
+
+.main {
+	display: block;
+	position: relative;
+	min-width: 900px;
+	height: 75%;
+	text-align: center;
+}
+
+#logo {
+	margin-top: 80px;
+}
+
+/* Form Styles */
+
+form {
+	text-align: center;
+	margin-top: 20px;
+}
+
+input {
+	background: #fff;
+	background: url(images/microphone.png) right center no-repeat;
+	background-size: 25px;
+	border: 1px solid #d8d8d8;
+	color: #555;
+ 	margin: 0 0 15px 0;
+	padding: 5px;
+	width: 570px;
+	height: 20px;
+}
+
+input:hover {
+	border: 1px solid #b2b2b2;
+ }
+
+input:focus {
+	border: 1px solid #1369e9;
+	outline: none;
+}
+
+button {
+	background: #f5f5f5;
+	background: -webkit-linear-gradient(#f5f5f5, #f1f1f1);
+	background: -moz-linear-gradient(#f5f5f5, #f1f1f1);
+	background: -ms-linear-gradient(#f5f5f5, #f1f1f1);
+	background: -o-linear-gradient(#f5f5f5, #f1f1f1);
+	background: linear-gradient(#f5f5f5, #f1f1f1);
+	border: 1px solid #d9d9d9;
+	border-radius: 3px;
+	padding: 7px;
+	color: #444;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	margin: 0 6px;
+}
+
+button:hover {
+	text-decoration: none;
+	background-color: #e6e6e6;
+	-webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, .20);
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, .20);
+}
+
+/* Footer Styles */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	background: #f2f2f2;
+	min-width: 900px;
+	width: 100%;
+	height: 30px;
+	border-top: 1px solid #e4e4e4;
+	padding-top: 15px;
+}
+
+#contact {
+	float: left;
+	margin-left: 16px;
+}
+
+#terms {
+	float: right;
+	padding-right: 30px;
+}
+
+#contact a, #terms a {
+	color: #737373;	
+}
+
+span {
+	color: #b14436;
+}
+
+
+
